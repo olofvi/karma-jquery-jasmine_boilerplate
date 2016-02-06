@@ -17,8 +17,19 @@
 * [Coveralls](https://coveralls.io/) for Test Coverage
 
 ####Set up
-Fork or download this repo.
-Run
+Fork or download this repo (using `git clone`) and modify the files to suite your testing needs.
+
+You can also use SVN to download this repo to your new project folder. On OSX you can install SVN using Homebrew.
+```
+$ brew install subversion
+```
+
+Create a new folder and `cd` into it. Run the `svn export` command to download files.
+
+```
+$ svn export https://github.com/CraftAcademy/karma-jquery-jasmine_boilerplate/trunk . --force
+```
+Once downloaded, you need to install all dependencies. Run
 ```
 $ npm install
 ```

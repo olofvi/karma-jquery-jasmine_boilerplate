@@ -42,6 +42,10 @@ Your specs need to be end with `_spec.js` (e.g. `fizz_buzz_spec.js`)
 Run tests with
 ```
 $ npm test
+
+# or
+
+$ karma start karma.conf.js
 ```
 
 ####Adding tests
